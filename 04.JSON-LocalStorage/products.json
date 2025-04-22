@@ -1,0 +1,86 @@
+[
+    {
+        "id": 1,
+        "name": "Maison Margiela Future Low",
+        "price": 25000,
+        "description": "La Maison Margiela Future Low es una opción perfecta para aquellos que buscan un estilo urbano y moderno.",
+        "image": "https://i.pinimg.com/736x/29/f8/8e/29f88ea8c3892544c46d4e7b16f14be5.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Forum Buckle Low Bad Bunny Blue Tint",
+        "price": 25000,
+        "description": "Al igual que la variante Café, la característica más destacada de esta zapatilla es la hebilla del tobillo que cruza la lengüeta.",
+        "image": "https://yasstore.in/wp-content/uploads/2023/08/WhatsApp-Image-2023-07-29-at-10.38.47-AM.jpeg"
+    },
+    {
+        "id": 3,
+        "name": "Jordan IV x Travis Scott 'Cactus Jack'",
+        "price": 25000,
+        "description": "La Jordan IV x Travis Scott 'Cactus Jack' es una colaboración única que combina la elegancia de la marca con el estilo del rapero.",
+        "image": "https://i.pinimg.com/736x/07/b2/ae/07b2aed07dac22353e4db80e48755857.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Balenciaga Triple S",
+        "price": 25000,
+        "description": "Encuentra la combinación ideal entre comfort y elegancia con los Balenciaga Triple S en color beige.",
+        "image": "https://cdn.pixabay.com/photo/2021/02/11/17/44/balenciaga-6005971_1280.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Yeezy Boost 350 Pirate Black",
+        "price": 25000,
+        "description": "Los 350 fueron los primeros tenis bajos creados por Ye. Con la popularidad de los adidas Ultraboost y los consumidores y consumidoras gravitando hacia estilos de running, el color Turtle Dove salió en el momento perfecto. Por eso Turtle Dove es probablemente la versión más icónica de los Yeezy 350.",
+        "image": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fwp-content%2Fblogs.dir%2F6%2Ffiles%2F2019%2F11%2Fadidas-yeezy-boost-350-v2-pirate-reissue-release-black-friday-s.jpg?w=1080&cbr=1&q=90&fit=max"
+    },
+    {
+        "id": 6,
+        "name": "NOCTA x Nike Air Force 1 Low Certified Lover Boy",
+        "price": 25000,
+        "description": "Otros elementos de diseño adicionales son agujetas personalizadas, el logotipo de NOCTA en el talón izquierdo y un nuevo patrón de perforaciones en la puntera.",
+        "image": "https://www.sneakerfiles.com/wp-content/uploads/2022/03/drake-nocta-nike-air-force-1-certified-lover-boy-white-release-date-3.jpeg"
+    },
+    {
+        "id": 7,
+        "name": "Nike SB Dunk Low What The Paul",
+        "price": 25000,
+        "description": "Su parte superior desigual viene en una variedad de materiales de malla, piel, ante, charol y tejidos. La firma de Paul Rodríguez en la lengüeta y los deubrés metalizados de edición especial completan el diseño.",
+        "image": "https://www.nicekicks.com/files/2021/05/Nike-SB-Dunk-Low-What-The-P-Rod-CZ2239-600-Lead.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Nike Pegasus 41 GTX",
+        "price": 25000,
+        "description": "Las Nike Pegasus 41 Gore Tex son tus icónicas zapatillas de entrenamiento diario de siempre pero con una protección e impermeabilidad extra.",
+        "image": "https://cdn.runrepeat.com/storage/gallery/product_content/40602/nike-pegasus-41-gtx-22242629-main.jpg"
+    },
+    {
+        "id": 9,
+        "name": "Converse x CDG Multi Hearts Chuck 70",
+        "price": 25000,
+        "description": "La colaboración favorita de los fanáticos, los sneakers Chuck 70 x Comme des Garçons PLAY, le dan un toque divertido a un clásico.",
+        "image": "https://static.ftshp.digital/img/p/1/0/6/3/2/0/7/1063207-full_product.jpg"
+    },
+    {
+        "id": 10,
+        "name": "Yeezy Boost 700 Wave Runner",
+        "price": 25000,
+        "description": "Los Yeezy 700 Boost Wave Runner son los sneakers que llevaron el pivote de Yeezy de una estética elegante y minimalista a una gruesa inspirada en los 90.",
+        "image": "https://cms-cdn.thesolesupplier.co.uk/2022/02/adidas-yeezy-boost-700-wave-runner.jpeg.webp"
+    },
+    {
+        "id": 11,
+        "name": "Jordan 3 Retro J Balvin Rio",
+        "price": 25000,
+        "description": "Los Jordan 3 Retro J Balvin Rio combinan a la perfección el diseño clásico de los Jordan 3 con el estilo característico de J Balvin.",
+        "image": "https://media.gq.com.mx/photos/65cf7c63e66791be1e1b8138/master/w_1600%2Cc_limit/tenis-jordan-color-negro-para-usar-con-todo-en-2024-j-balvin-air-jordan-3-rio.png"
+    },
+    {
+        "id": 12,
+        "name": "Nike SB Dunk Low Ben & Jerry's Chunky Dunky",
+        "price": 25000,
+        "description": "Inspirándose en el colorido envase de helado de Ben & Jerry's, este lanzamiento va más allá de un simple esquema de colores nuevos y presenta detalles únicos que nunca se habían utilizado en la silueta Dunk Low.",
+        "image": "https://5.imimg.com/data5/ANDROID/Default/2024/12/476619256/MX/IN/MO/192412408/product-jpeg-500x500.jpg"
+    }
+]

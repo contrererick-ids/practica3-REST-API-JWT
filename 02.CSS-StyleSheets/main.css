@@ -1,0 +1,187 @@
+/*-----------------MAIN STYLE SHEET-----------------*/
+
+/*Body*/
+body{
+    background-color: rgb(220, 220, 220);
+    margin: 0;
+    padding: 0;
+}
+
+/*Navbar y botones*/
+.navbar-main-nav{
+    font-size: 14pt;
+}
+
+.navbar-elements > *{
+    margin: 5px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.page-title{
+    text-align: center;
+    font-size: 18pt;
+    color: rgb(251, 148, 102);
+}
+
+.search-bar-button{
+    background-color: rgb(28, 27, 26);
+    border-color: rgb(251, 148, 102);
+    color: white;
+}
+
+.page-title:hover{
+    color: rgb(249, 76, 0);
+    text-shadow: 0 0 1px black; 
+}
+
+.search-bar-button:hover{
+    background-color: rgb(251, 148, 102);
+    border-color: rgb(251, 148, 102);
+    color: rgb(28, 27, 26);
+}
+
+.dropdown-toggle{
+    background-color:rgb(251, 148, 102);
+    border-color: rgb(28, 27, 26);
+    font-weight: bold;
+    color: rgb(28, 27, 26);
+}
+
+.dropdown-toggle:hover{
+    background-color:rgb(28, 27, 26);
+    border-color: rgb(249, 76, 0);
+    color: white;
+}
+
+/*Separador*/
+hr{
+    border: 2px solid rgb(28, 27, 26);
+}
+
+/*Footer*/
+.footer{
+    background-color: rgb(40, 40, 40);
+    padding: 10px;
+}
+
+.footer p{
+    color: rgb(250, 250, 250);
+    font-size: 10pt;
+}
+
+.footer img{
+    box-shadow: 0 0 5px rgb(251, 148, 102);
+}
+
+.footer a{
+    color: white;
+}
+
+.footer a:hover{
+    color: rgb(251, 148, 102);
+}
+
+/*Modal y formularios*/
+.modal-header{
+    margin: 0;
+    padding: 10px;
+    border: 0;
+    border-bottom: 3px solid rgb(40, 40, 40);
+    background-color: rgb(249, 76, 0);
+    color: rgb(28, 27, 26);
+}
+
+.modal-title{
+    margin: 0;
+    margin-left: 5px;
+    padding: 0;
+    text-align: left;
+}
+
+.modal-body{
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: 0;
+    border-bottom: 3px solid rgb(40, 40, 40);
+    background-color: rgb(28, 27, 26);
+    color: rgb(220, 220, 220);
+}
+
+#formMailInput, #formPasswordInput, #formRegisterName, #formRegisterLastName,
+#formRegisterMail, #formRegisterMailConfirmationInput, #formRegisterPasswordInput,
+#formRegisterPasswordConfirmationInput{
+    border: 1px solid rgb(251, 148, 102);
+    background-color: rgb(40, 40, 40);
+    color: rgb(220, 220, 220);
+}
+
+#formRegisterName{
+    margin-right: 5px;
+}
+
+#formMailInput::placeholder, #formPasswordInput::placeholder,
+#formRegisterName::placeholder, #formRegisterLastName::placeholder,
+#formRegisterMail::placeholder, #formRegisterMailConfirmationInput::placeholder,
+#formRegisterPasswordInput::placeholder, #formRegisterPasswordConfirmationInput::placeholder{
+    color: rgb(220, 220, 220);
+}
+
+.input-group-text{
+    border: 1px solid rgb(251, 148, 102);
+    background-color: rgb(251, 148, 102);
+    color: rgb(28, 27, 26);
+}
+
+.form-check{
+    margin: 0;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding: 0;
+}
+
+#formRememberUserBtn{
+    margin: 0;
+    margin-right: 5px;
+    padding: 0;
+    border-color: rgb(251, 148, 102);
+    background-color: rgb(40, 40, 40);
+}
+
+#formRememberUserBtn:checked{
+    background-color: rgb(251, 148, 102);
+}
+
+.btn-user-login-confirmation, .btn-user-register-confirmation{
+    margin: 0;
+    padding: 5px;
+    border: 0;
+    border: 1px solid rgb(251, 148, 102);
+    background-color: rgb(251, 148, 102);
+    color: rgb(28, 27, 26);
+}
+
+.btn-user-login-confirmation:hover, .btn-user-register-confirmation:hover{
+    border: 1px solid rgb(249, 76, 0);
+    background-color: rgb(40, 40, 40);
+    font-weight: bold;
+    color: rgb(249, 76, 0);
+}
+
+.modal-footer{
+    margin: 0;
+    padding: 10px;
+    border: 0;
+    background-color: rgb(28, 27, 26);
+    color: rgb(220, 220, 220);
+}
+
+.modal-footer a{
+    color: rgb(251, 148, 102);
+}
+
+.modal-footer a:hover{
+    color: rgb(249, 76, 0);
+}

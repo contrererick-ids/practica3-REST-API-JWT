@@ -1,0 +1,142 @@
+/*-----------------INDEX STYLE SHEET-----------------*/
+
+/*Carrusel*/
+#productsCarousel{
+    background-color: rgb(40, 40, 40);
+}
+
+.carousel-inner{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(40, 40, 40);
+
+}
+
+.carousel-item{
+    height: 400px;
+    background-color: rgb(40, 40, 40);
+}
+
+.carousel-item img{
+    height: 100%;
+    object-fit: contain; 
+}
+
+/*Product section y cards*/
+.products-section{
+    padding: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.products-section-title{
+    padding: 10px;
+    align-items: center;
+}
+
+.products-section-title h2{
+    margin: 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(40, 40, 40);
+}
+
+.products-section-grid{
+    margin: 0;
+    padding: 5px;
+}
+
+.col{
+    margin: 0;
+    padding: 0;
+    border: 1px solid rgb(220, 220, 220);
+}
+
+.card{
+    margin: 0;
+    background-color: rgb(40, 40, 40);
+    border-radius: 0;
+}
+
+.card-title{
+    margin: 0px;
+    padding: 0px;
+    height: 25px;
+    text-align: center;
+    color: white;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.card-text{
+    margin: 0;
+    padding: 10px;
+    height: 80px;
+    text-align: left;
+    display: -webkit-box;
+    line-clamp: 3;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: white;
+}
+
+.card-product-price{
+    margin: 0;
+    padding: 5px;
+    text-align: center;
+    color: white;
+}
+
+.card-img-top{
+    height: 200px;
+    background-color: white;
+    border-radius: 0;
+    object-fit: cover;
+}
+
+.card-buttons{
+    padding-top: 10px;
+}
+
+.see-more-button, .save-product, .add-to-cart{
+    background-color: rgb(20, 20, 20);
+    border-color: rgb(80, 80, 80);
+    color: white;
+}
+
+.see-more-button:hover{
+    background-color: rgb(255, 193, 7);
+    border-color: rgb(20, 20, 20);
+    color: rgb(20, 20, 20);
+}
+
+.save-product:hover{
+    background-color: rgb(255, 0, 0);
+    border-color: rgb(20, 20, 20);
+    color: white;
+}
+
+.add-to-cart:hover{
+    background-color: rgb(42, 117, 187);
+    border-color: rgb(20, 20, 20);
+    color: white;
+}
+
+/*Paginación*/
+.page-navigation{
+    padding: 10px;
+}
+
+.page-navigation .page-link{
+    background-color: rgb(40, 40, 40);
+    border-color: rgb(40, 40, 40);
+    color: white;
+}
+
+.page-navigation .page-link:hover{
+    background-color: white;
+    color: rgb(40, 40, 40);
+}

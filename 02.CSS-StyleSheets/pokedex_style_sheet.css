@@ -1,0 +1,86 @@
+/*-----------------POKEDEX STYLE SHEET-----------------*/
+
+/*Pokedex section y cards*/
+.pokeStoreTitle{
+    background-color: rgb(230, 230, 230);
+}
+
+.pokeStoreTitle h1{
+    padding: 5px;
+    color: rgb(40, 40, 40);
+}
+
+#pokedexCatalogue{
+    background-color: rgb(40, 40, 40);
+    padding: 5px;
+}
+
+.card{
+    border: 1px solid rgb(230, 230, 230);
+    background-color: rgb(40, 40, 40);
+    max-width: 250px;
+}
+
+.card-title{
+    height: 25px;
+    color: white;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 0px;
+    margin: 0px;
+}
+
+.card-text{
+    height: 25px;
+    display: -webkit-box;
+    color: white;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 0px;
+    margin: 0px;
+}
+
+.card-img-top{
+    max-height: 150px;
+    background-color: rgb(40, 40, 40);
+    object-fit:contain;
+}
+
+/*Paginación*/
+#pokedexPagination{
+    background-color: rgb(40, 40, 40);
+    padding: 10px;
+}
+
+.page-navigation{
+    padding: 10px;
+    background-color: rgb(40, 40, 40);
+    border-color: rgb(230, 230, 230);
+    color: white;
+}
+
+.page-link:hover{
+    background-color: white;
+    color: rgb(40, 40, 40);
+}
+
+.page-link{
+    background-color: rgb(40, 40, 40);
+    border-color: rgb(230, 230, 230);
+    color: white;
+}
+
+.page-link:hover{
+    background-color: white;
+    color: rgb(40, 40, 40);
+}
+
+.page-item.active .page-link{
+    background-color: rgb(255, 193, 7);
+    border-color: rgb(255, 193, 7);
+    color: rgb(40, 40, 40);
+}
