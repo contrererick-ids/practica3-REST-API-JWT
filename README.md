@@ -87,3 +87,7 @@ The API is documented using **Swagger**:
 ## ⚠️ Note
 
 This project was developed for academic purposes only.
+
+---
+
+📄 _Este README también está disponible en [Español](README.es.md)._
