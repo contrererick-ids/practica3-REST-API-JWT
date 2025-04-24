@@ -193,7 +193,7 @@ function calculeTotal(){
         </div>
         <div class="col-12 d-flex flex-wrap align-items-center items-resume-footer">
             <button class="col-12 btn btn-warning mb-2">Pagar</button>
-            <button class="col-12 btn btn-danger mb-2">Cancelar</button>
+            <button class="col-12 btn btn-danger mb-2 delete-cart">Cancelar</button>
         </div>
     `;
     // Agregamos el contenedor de Resumen de compras al HTML
@@ -227,6 +227,9 @@ function calculeTotal(){
         <div class="col-6 justify-content-center item-total-value"><h6>${Intl.NumberFormat("es-MX",{style: "currency", currency: "MXN"}).format(totalAmount)}</h6></div>
     `;
 
+    const deleteCartButton = document.querySelector('.delete-cart');
+    deleteCartButton.addEventListener('click', deleteCart);
+
 }
 
 // Función para remover un producto del carrito de compras
@@ -243,6 +246,15 @@ function removeFromCart(productId) {
     } catch (error) {
         // En caso de que haya un error al remover el producto del carrito, mostramos un mensaje de error en la consola
         console.error('Error removing item from cart:', error);
+    }
+}
+
+function deleteCart(){
+    try{
+        localStorage.setItem('shoppingCartLocalStorage', JSON.stringify([]));
+        loadShoppingCart();
+    } catch (error) {
+        console.error('Error deleting cart:', error);
     }
 }
 
