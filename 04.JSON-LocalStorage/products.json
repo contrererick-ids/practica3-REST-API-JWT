@@ -82,5 +82,61 @@
         "price": 25000,
         "description": "Inspirándose en el colorido envase de helado de Ben & Jerry's, este lanzamiento va más allá de un simple esquema de colores nuevos y presenta detalles únicos que nunca se habían utilizado en la silueta Dunk Low.",
         "image": "https://5.imimg.com/data5/ANDROID/Default/2024/12/476619256/MX/IN/MO/192412408/product-jpeg-500x500.jpg"
+    },
+    {
+        "id": 13,
+        "name": "Jordan 1 Mid SE Siempre Familia",
+        "price": 25000,
+        "description": "Inspirados en el Día de los Muertos mexicano, los Jordan 1 Mid Siempre Familia están confeccionados con un upper de ante negro y rojo con bordados destacados que hacen referencia a los espíritus en los Swooshes y los talones.",
+        "image": "https://m.media-amazon.com/images/I/71DATJynR4L._AC_SL1500_.jpg"
+    },
+    {
+        "id": 14,
+        "name": "Jordan 1 Mid Dia de los Muertos",
+        "price": 25000,
+        "description": "La marca Jordan creó el modelo Air Jordan 1 Mid Dia de los Muertos en honor a esa famosa festividad mexicana. El diseño utiliza el color y dibujos para rendir homenaje a las costumbres de México.",
+        "image": "https://scontent.fgdl5-3.fna.fbcdn.net/v/t1.6435-9/119563725_1035208070242828_2810956427665223288_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeFe4xxVGvUJAdY7Ao_BanfsKmm03hTBbyMqabTeFMFvI-UyYyg2Dn-w3RkqkAo-5jkd4pULm2JewzpnVh-k_Rjd&_nc_ohc=-49xkwTdCtwQ7kNvwENsOQ0&_nc_oc=Adn6DUJ5xS9_ZwiyFIeGFnHcHcmfzvPnKI8mS3ENPlB-68EENO984mRmjAyw1twi790&_nc_zt=23&_nc_ht=scontent.fgdl5-3.fna&_nc_gid=QzJGVtXMC93cW8vyzofS5w&oh=00_AfE3RED5rVtJtrq03nxkwH30SmWGsyBNuE0VLQnwQFdt9A&oe=682FEA95"
+    },
+    {
+        "id": 15,
+        "name": "Nike Air Max 1 Patta Waves",
+        "price": 25000,
+        "description": "Después de deleitarnos con cuatro combinaciones de colores lanzadas en 2021, la serie 'The Waves' de Patta x Nike Air Max 1 continúa su camino, pues ahora nos presenta una quinta combinación de colores, que como ya te habrás dado cuenta, aparece en un limpio tono blanco.",
+        "image": "https://desempacados.com/wp-content/uploads/2022/07/Desempacados_Patta-Nike-Air-Max-1-White-Grey-5-1160x827.jpeg"
+    },
+    {
+        "id": 16,
+        "name": "Nike Air Force 1 Mid Off-White en blanco",
+        "price": 25000,
+        "description": "Los Nike Air Force 1 Mid Off-White White honran el 40º aniversario de las Nike Air Force 1 refrescando el diseño clásico con el estilo vanguardista característico de Abloh. Presenta una estructura de malla ligera con textura granulada de madera blanca, tirantes antidesgarros en el cuello y logotipos transparentes de TPU.",
+        "image": "https://cms-cdn.thesolesupplier.co.uk/2021/11/ow1_w1160_h672.jpg.webp"
+    },
+    {
+        "id": 17,
+        "name": "Jordan 1 Retro Low OG SP Fragment x Travis Scott",
+        "price": 25000,
+        "description": "Los Air Jordan 1 Low Fragment Design x Travis Scott hacen referencia al 2016 Air Jordan 1 Fragment original con sus sencillos bloques de color. Presentan un exterior de cuero blanco suave con capas superiores de cuero negro y azul real. ",
+        "image": "https://cdn.shopify.com/s/files/1/0255/9429/8467/files/Travis-Scott-x-Fragment-x-Air-Jordan-1-High-OG-1_600x600.jpg?v=1627377536"
+    },
+    {
+        "id": 18,
+        "name": "Nike Dunk High AMBUSH",
+        "price": 25000,
+        "description": "Como la primera diseñadora en asociarse con Nike y la Asociación Nacional de Baloncesto (NBA), la fundadora de AMBUSH®, Yoon Ahn, ofrece una creación vibrante definida por la firma, con detalles de marca compartida y una estética inspirada en el básquetbol.",
+        "image": "https://cdn.sanity.io/images/c1chvb1i/production/0a8e5524fcd6bd4da02f6c206d25da706ada6404-1100x735.jpg"
+    },
+    {
+        "id": 19,
+        "name": "AMBUSH x Converse Chuck 70",
+        "price": 25000,
+        "description": "El diseño partió de la suela de la Chuck Taylor All Star Lugged como base -por su mejor tracción y elevación de la suela-, y jugó con la proporción para mejorar la resistencia a las inclemencias del tiempo y su funcionalidad. Aunque la silueta Lugged surgió al mercado en su momento como una zapatilla femenina, con el paso del tiempo ha sido adoptada como una opción funcional sin género.",
+        "image": "https://sneakerbardetroit.com/wp-content/uploads/2019/01/AMBUSH-Converse-Chuck-Taylor-Release-Date-1.jpg"
+    },
+    {
+        "id": 20,
+        "name": "SB Dunk Low Pro “Street Hawker",
+        "price": 25000,
+        "description": "A pesar de sus orígenes regionales, la comida china es famosa en todo el mundo. Este exquisito Dunk rinde homenaje a la popular cocina de este país con un estampado en contraste que representa varios platos. Seguro que se te abrirá el apetito.",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSwPAx_OUrh72T8twgJpmyFNIFl60Ktuykow&s"
     }
 ]
