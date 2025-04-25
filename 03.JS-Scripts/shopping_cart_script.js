@@ -193,7 +193,7 @@ function calculeTotal(){
         </div>
         <div class="col-12 d-flex flex-wrap align-items-center items-resume-footer">
             <button class="col-12 btn btn-warning mb-2">Pagar</button>
-            <button class="col-12 btn btn-danger mb-2 delete-cart">Cancelar</button>
+            <button class="col-12 btn btn-danger mb-2 delete-cart">Eliminar carrito</button>
         </div>
     `;
     // Agregamos el contenedor de Resumen de compras al HTML
