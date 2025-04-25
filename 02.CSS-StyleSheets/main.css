@@ -86,9 +86,8 @@ hr{
     margin: 0;
     padding: 10px;
     border: 0;
-    border-bottom: 3px solid rgb(40, 40, 40);
-    background-color: rgb(249, 76, 0);
-    color: rgb(28, 27, 26);
+    background-color: rgb(28, 27, 26);
+    color: rgb(220, 220, 220);
 }
 
 .modal-title{
@@ -98,6 +97,12 @@ hr{
     text-align: left;
 }
 
+.btn-close{
+    margin-right: 0;
+    background-color: rgb(249, 76, 0);
+    color: rgb(220, 220, 220);
+}
+
 .modal-body{
     margin: 0;
     padding-top: 10px;
@@ -105,17 +110,16 @@ hr{
     padding-left: 15px;
     padding-right: 15px;
     border: 0;
-    border-bottom: 3px solid rgb(40, 40, 40);
-    background-color: rgb(28, 27, 26);
-    color: rgb(220, 220, 220);
+    background-color: rgb(220, 220, 220);
+    color: rgb(28, 27, 26);
 }
 
 #formMailInput, #formPasswordInput, #formRegisterName, #formRegisterLastName,
 #formRegisterMail, #formRegisterMailConfirmationInput, #formRegisterPasswordInput,
 #formRegisterPasswordConfirmationInput{
-    border: 1px solid rgb(251, 148, 102);
-    background-color: rgb(40, 40, 40);
-    color: rgb(220, 220, 220);
+    border: 1px solid rgb(28, 27, 26);
+    background-color: rgb(220, 220, 220);
+    color: rgb(28, 27, 26);
 }
 
 #formRegisterName{
@@ -126,13 +130,13 @@ hr{
 #formRegisterName::placeholder, #formRegisterLastName::placeholder,
 #formRegisterMail::placeholder, #formRegisterMailConfirmationInput::placeholder,
 #formRegisterPasswordInput::placeholder, #formRegisterPasswordConfirmationInput::placeholder{
-    color: rgb(220, 220, 220);
+    color: rgb(28, 27, 26);
 }
 
 .input-group-text{
-    border: 1px solid rgb(251, 148, 102);
-    background-color: rgb(251, 148, 102);
-    color: rgb(28, 27, 26);
+    border: 1px solid rgb(28, 27, 26);
+    background-color: rgb(28, 27, 26);
+    color: rgb(220, 220, 220);
 }
 
 .form-check{
@@ -146,42 +150,43 @@ hr{
     margin: 0;
     margin-right: 5px;
     padding: 0;
-    border-color: rgb(251, 148, 102);
-    background-color: rgb(40, 40, 40);
+    border-color: rgb(28, 27, 26);
+    background-color: rgb(220, 220, 220);
 }
 
 #formRememberUserBtn:checked{
-    background-color: rgb(251, 148, 102);
+    background-color: rgb(28, 27, 26);
 }
 
 .btn-user-login-confirmation, .btn-user-register-confirmation{
     margin: 0;
     padding: 5px;
     border: 0;
-    border: 1px solid rgb(251, 148, 102);
-    background-color: rgb(251, 148, 102);
-    color: rgb(28, 27, 26);
+    border: 1px solid rgb(28, 27, 26);
+    background-color: rgb(28, 27, 26);
+    color: rgb(220, 220, 220);
 }
 
 .btn-user-login-confirmation:hover, .btn-user-register-confirmation:hover{
     border: 1px solid rgb(249, 76, 0);
-    background-color: rgb(40, 40, 40);
+    background-color: rgb(249, 76, 0);
     font-weight: bold;
-    color: rgb(249, 76, 0);
+    color: rgb(220, 220, 220);
 }
 
 .modal-footer{
     margin: 0;
     padding: 10px;
     border: 0;
-    background-color: rgb(28, 27, 26);
-    color: rgb(220, 220, 220);
+    background-color: rgb(220, 220, 220);
+    color: rgb(28, 27, 26);
 }
 
 .modal-footer a{
-    color: rgb(251, 148, 102);
+    color: rgb(249, 76, 0);
 }
 
 .modal-footer a:hover{
+    font-weight: bold;
     color: rgb(249, 76, 0);
 }
