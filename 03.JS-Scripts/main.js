@@ -54,7 +54,6 @@ class loginModal extends HTMLElement{
                 </div>
             </div>
         `
-        console.log('Login modal rendered');
     }
 }
 
@@ -124,7 +123,6 @@ document.addEventListener('DOMContentLoaded', async () => {
 
     // Agregamos los event listeners a los botones
     const addToCartButtons = document.querySelectorAll('.add-to-cart');
-    console.log('Buttons found:', addToCartButtons.length);
     
     addToCartButtons.forEach(button => {
         button.addEventListener('click', async (event) => {
