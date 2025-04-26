@@ -96,43 +96,7 @@
         </h>
     
         <!--Modal Login-->
-        <div class="modal" id="modalLogin" tabindex="-1">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h4 class="modal-title">Ingresar</h4>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> 
-                    </div>
-                    <div class="modal-body">
-                        <form class="login-form">
-                            <div class="form-group">
-                                <h5>Usuario</h5>
-                                <div class="input-group mb-2">
-                                    <input id="formMailInput" type="text" class="form-control" placeholder="Ingresa tu correo">
-                                    <span class="input-group-text"><i class="bi bi-envelope-at"></i></span>
-                                </div>
-                            </div>
-                            <div class="form-group">
-                                <h5>Contraseña</h5>
-                                <div class="input-group mb-2">
-                                    <input id="formPasswordInput" type="text" class="form-control" placeholder="Ingresa tu contraseña">
-                                    <span class="input-group-text"><i class="bi bi-key-fill"></i></span>
-                                  </div>
-                            </div>
-                            <div class="form-check d-flex align-items-center">
-                                <input id="formRememberUserBtn" type="checkbox" class="form-check-input">
-                                <label for="formRememberUserBtn">Recordar mi usuario</label>
-                            </div>
-                            <button type="submit" class="col-12 btn btn-user-login-confirmation"><span class="glyphicon glyphicon-off"></span>Login</button> 
-                        </form>
-                    </div>
-                    <div class="modal-footer">
-                        <p>¿No tienes cuenta? </p>
-                        <a href="" data-bs-toggle="modal" data-bs-target="#modalUserRegister">¡Regístrate aquí!</a>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <login-modal></login-modal>
 
         <!--Modal Registro-->
         <div class="modal" id="modalUserRegister" tabindex="1">
