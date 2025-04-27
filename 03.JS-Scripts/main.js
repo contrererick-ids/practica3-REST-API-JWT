@@ -3,19 +3,9 @@ import * as productModule from './product.js';
 import * as shoppingCartModule from './shopping_cart_script.js';
 
 class loginModal extends HTMLElement{
-    constructor(){
-        super();
-        this.attachShadow({ mode: 'open' });
-    }
-
     connectedCallback(){
-        this.render();
-    }
-
-    render() {
-        this.shadowRoot.innerHTML = `
-            <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-            <link href="./02.CSS-StyleSheets/main.css" rel="stylesheet">
+        const shadowLoginModal = this.attachShadow({mode: 'open'});
+        shadowLoginModal.innerHTML = `
             <div class="modal" id="modalLogin" tabindex="-1">
                 <div class="modal-dialog">
                     <div class="modal-content">
@@ -58,6 +48,70 @@ class loginModal extends HTMLElement{
 }
 
 customElements.define('login-modal', loginModal);
+
+class registerModal extends HTMLElement{
+    connectedCallback(){
+        const shadowRegisterModal = this.attachShadow({mode: 'open'});
+        shadowRegisterModal.innerHTML = `
+            <div class="modal" id="modalUserRegister" tabindex="1">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title">Regístrate</h4>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label></button>
+                        </div>
+                        <div class="modal-body">
+                            <form class="registerForm">
+                                <div class="form-group">
+                                    <h5>Ingresa tus datos</h5>
+                                    <div class="form-group d-flex justify-content-between align-items-center mb-2">
+                                        <div class="input-group">
+                                            <input id="formRegisterName" type="text" class="form-control" placeholder="Ingresa tu nombre"> 
+                                        </div>
+                                        <div class="input-group">
+                                            <input id="formRegisterLastName" type="text" class="form-control" placeholder="Ingresa tus apellidos"> 
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="input-group mb-2">
+                                            <input id="formRegisterMail" type="email" class="form-control" placeholder="Ingresa tu correo">
+                                            <span class="input-group-text"><i class="bi bi-envelope-at"></i></span>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="input-group mb-2">
+                                            <input id="formRegisterMailConfirmationInput" type="email" class="form-control" placeholder="Confirma tu correo">
+                                            <span class="input-group-text"><i class="bi bi-envelope-at"></i></span>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="input-group mb-2">
+                                            <input id="formRegisterPasswordInput" type="password" class="form-control" placeholder="Ingresa tu contraseña"> 
+                                            <span class="input-group-text"><i class="bi bi-key-fill"></i></span>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="input-group mb-2">
+                                            <input id="formRegisterPasswordConfirmationInput" type="password" class="form-control" placeholder="Confirma tu contraseña">
+                                            <span class="input-group-text"><i class="bi bi-key-fill"></i></span>
+                                        </div>
+                                    </div>
+                                    <button type="submit" class="col-12 btn btn-user-register-confirmation"><span class="glyphicon glyphicon-off"></span>Registrarme</button>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="modal-footer">
+                            <p>¿Ya tienes cuenta? </p>
+                            <a href="" data-bs-toggle="modal" data-bs-target="#modalLogin">Inicia sesión aquí</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        `
+    }
+}
+
+customElements.define('register-modal', registerModal);
 
 // Función para generar un carrusel de imágenes de los productos en la página de inicio en la sección productsCarousel
 async function generateProductsCarousel() {
@@ -107,6 +161,16 @@ document.addEventListener('DOMContentLoaded', async () => {
             boostrapModal.show();
         })
     });
+
+    const registerLinks = document.querySelectorAll('[data-bs-target="#modalUserRegister"]');
+    registerLinks.forEach(link => {
+        link.addEventListener('click', (e) => {
+            e.preventDefault();
+            const modal = document.querySelector('register-modal').shadowRoot.querySelector('#modalUserRegister');
+            const boostrapModal = new bootstrap.Modal(modal);
+            boostrapModal.show();
+        })
+    })
 
     // Apuntamos al productsCarousel y lo guardamos en una variable
     const productsCarousel = document.getElementById('producstCarousel');
