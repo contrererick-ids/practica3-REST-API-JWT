@@ -66,9 +66,9 @@ exports.deleteProduct = async (request, response) => {
             return res.status(404).json({ message: 'Product  no found.' });
         }
         // Si el producto se encuentra, respondemos con un código de estado 200 (OK) y un mensaje indicando que el producto fue eliminado.
-        res.json({ message: 'Product  was deleted' });
+        response.json({ message: 'Product  was deleted' });
     } catch (err) {
         // Si ocurre un error, respondemos con un código de estado 400 (Bad Request) y un mensaje de error.
-        res.status(400).json({ error: err.message });
+        response.status(400).json({ error: err.message });
     }
 };
