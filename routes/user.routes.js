@@ -7,7 +7,7 @@ const userController = require('../controllers/user.controller');
 // Se importa el middleware de autenticación.
 const authMiddleware = require('../middleware/auth');
 
-// Se generan las rutas para el controlador de usuarios.
+// Se generan las rutas para el controlador de usuarios y sus operaciones CRUD.
 router.post('/', userController.createUser);
 router.post('/login', userController.loginUser);
 router.get('/', authMiddleware, userController.getUsers);
